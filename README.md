@@ -1,16 +1,66 @@
-# React + Vite
+📸 Photo Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive photo gallery built using React.js and Tailwind CSS.
 
-Currently, two official plugins are available:
+This project allows users to explore photos, search for specific images, and save their favourite photos in one place.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+✨ Features
 
-## React Compiler
+* Browse a collection of photos.
+* Search photos easily.
+* Add and remove photos from favourites.
+* View your favourite photos separately.
+* Responsive design for different screen sizes.
+* Custom React hooks for reusable logic.
+* Used useReducer to manage favourite photo state.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Built With
 
-## Expanding the ESLint configuration
+* React.js
+* JavaScript
+* Tailwind CSS
+* Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Getting Started
+
+To run this project on your local machine:
+
+1. Clone the repository
+
+git clone https://github.com/Abhisahu-Infer/Photo-gallery.git
+
+2. Open the project folder
+
+cd Photo-gallery
+
+3. Install dependencies
+
+npm install
+
+4. Start the development server
+
+npm run dev
+
+Now open the local URL shown in your terminal.
+
+📂 Project Structure
+
+Photo-gallery/
+├── public/
+├── src/
+│   ├── components/
+│   ├── hooks/
+│   └── ...
+├── index.html
+├── package.json
+└── vite.config.js
+
+👨‍💻 Author
+
+Abhi Sahu
+
+* GitHub: @Abhisahu-Infer
+
+⸻
+
+Made with ❤️ while learning and exploring React.
